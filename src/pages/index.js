@@ -1,3 +1,3 @@
 export default function Index(){
-  return<h1>Truco carapoenc</h1>
+  return<h1>Truco carapoencteste</h1>
 }
