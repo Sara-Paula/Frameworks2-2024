@@ -1,3 +1,9 @@
+import Menu from "./components/navbar";
+
 export default function Index(){
-  return<h1>Truco carapoencteste</h1>
+  return <>
+  <Menu />
+  <h1>Olá turma</h1>
+  
+  </>
 }
