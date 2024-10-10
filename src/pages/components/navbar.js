@@ -2,8 +2,8 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 
 export default function Menu() {
     return (
-        <Navbar expand="lg" className="degrademenu">
-            <Container>
+        <Container>
+            <Navbar expand="sm" bg="dark" data-bs-theme="dark" className="ps-3 border border-2 border-danger border rounded-2 ">
                 <Navbar.Brand href="/">6v</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -12,7 +12,7 @@ export default function Menu() {
                         <Nav.Link href="#link">Link</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-            </Container>
-        </Navbar>
+            </Navbar>
+        </Container>
     );
 }
